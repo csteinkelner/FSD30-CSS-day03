@@ -1,0 +1,78 @@
+*
+{
+	box-sizing: border-box;
+
+}
+a
+{
+	width: 200px;
+	text-decoration: none;
+	color: gold;
+	font-family: 'Chivo', sans-serif;
+	padding-top: 20px;
+	line-height: 2;
+	display: block;
+	margin-left: 2px;
+
+}
+.box a:hover
+{
+	display:block;
+	text-decoration: none;
+	color: white;
+	font-family: 'Chivo', sans-serif;
+	border-bottom: solid 3px white; 
+	background-color: rgba(0, 100, 250, 0.5);
+	font-size: 20px;
+}
+
+.box
+{
+	width: 50%;
+	height: 300px;
+	background-color: black;
+	padding: 20px;
+}
+.box:hover
+{
+	border-radius: 100px;
+	background-color: rgba(10, 100,10, 1.0);
+	 -webkit-transform: rotate(-360deg);
+}
+.rotate {
+  -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	}
+
+.box2
+{
+	width: 50%;
+	height: 300px;
+	background-color: black;
+	padding: 20px;
+	float: top left;
+	margin-top: 30px; 
+}
+.box2:hover
+{
+	border-radius: 100px;
+	background-color: rgba(10, 100,10, 1.0);
+	 -webkit-transform: rotate(-360deg);
+}
+#ball
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: blue;
+	margin: 10px;
+	-webkit-transition: width 3s, height 3s, -webkit-transform 3s; 
+  	transition:  width 3s, height 3s, transform 3s;
+}
+#ball:hover
+{
+	transform: translate(1000px, 0px);
+
+}
